@@ -1,0 +1,36 @@
+Arguments: 
+  /Users/linwenshuo/.nvm/versions/node/v14.15.4/bin/node /Users/linwenshuo/.nvm/versions/node/v14.15.4/bin/yarn init
+
+PATH: 
+  /Users/linwenshuo/Nodreame/01-coder/flutter/bin:/Users/linwenshuo/anaconda3/bin:/Users/linwenshuo/anaconda3/condabin:/Users/linwenshuo/.nvm/versions/node/v14.15.4/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/linwenshuo/Nodreame/env/apache-maven-3.6.0/bin:/Users/linwenshuo/Library/Android/sdk/tools:/Users/linwenshuo/Library/Android/sdk/tools/bin:/Users/linwenshuo/Library/Android/sdk/platform-tools:/Users/linwenshuo/Library/Android/sdk/emulator:/Users/linwenshuo/coding/flutter/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.4
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/Users/linwenshuo/.nvm/versions/node/v14.15.4/lib/node_modules/yarn/lib/cli.js:136216:13)
+      at Interface.emit (events.js:315:20)
+      at Interface._ttyWrite (readline.js:875:16)
+      at ReadStream.onkeypress (readline.js:213:10)
+      at ReadStream.emit (events.js:315:20)
+      at emitKeys (internal/readline/utils.js:345:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1144:36)
+      at ReadStream.emit (events.js:315:20)
+      at addChunk (internal/streams/readable.js:309:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
