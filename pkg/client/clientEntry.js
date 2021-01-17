@@ -1,10 +1,5 @@
-import mdHTML from '../../docs/README.md'
+import { createApp } from './app'
 
-function component() {
-  var element = document.createElement('div');
-  console.log(typeof mdHTML)
-  element.innerHTML = mdHTML
-  return element;
-}
+const { app } = createApp()
 
-document.body.appendChild(component());
+app.$mount('#app')
